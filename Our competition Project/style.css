@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* cart items */
+.cart-page{
+    margin: 80px auto;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.update{
+    width: 1170px;
+    height: 56px;
+    gap: 757px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.love{
+    
+    width: 500px;
+    height: 100px;
+    
+}
+.shop{
+    width: 218px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid black;
+    gap: 10px;
+    padding: 16px 48px 16px 48px;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cart{
+    width: 218px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mine{
+    height: 56px;
+    width: 250px;
+
+}
+.meme{
+    width: 218px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    border: 0;
+
+}
+.john{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+
+}
+.obi{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px;
+}
+
+
+.coup{
+    display: flex;
+}
+.check{
+    border: 1.5px solid;
+    width: 470px;
+    height: 324px;
+    border-radius: 4px;
+    
+    
+}
+.process{
+    width: 260px;
+    height: 56px;
+    margin-top: 60px;
+    margin-left: 89px;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.sub, .free, .checkout{
+    display: flex;
+    width: 422px;
+    height: 24px;
+    /* margin-top: 84px; */
+    margin-left: 24px;
+    gap: 307px;
+}
+#Line{
+    width: 412px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+#tot{
+    width: 100px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 24px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+#shop{
+    width: 100px;
+   height: 24px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .cart-info p{
+        display: none;
+        flex-direction: column;
+    }
+    .cart-total{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+    @media screen and (max-width: 1220px){
+        .container{
+            max-width: 95%;
+        
+    }
+}
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
